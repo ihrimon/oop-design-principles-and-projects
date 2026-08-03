@@ -1,10 +1,10 @@
-# 🧱 OOP Mastery Roadmap — Junior → Production Engineer Track
+# OOP Mastery Roadmap — Junior → Production Engineer Track
 
 > A complete, **10-phase** Object-Oriented Programming checklist — built for a junior engineer who needs OOP not just for interviews, but for real, day-to-day production work: reading enterprise codebases, designing maintainable classes, applying SOLID and Design Patterns correctly, and knowing _when not to_ use them. Each phase moves from concept → industry best-practice rule → hands-on project, so this document doubles as both a study tracker and a portfolio plan.
 
 ## 📑 Table of Contents
 
-- [Phase 01 — Programming Foundations \& Object Thinking](#phase-01--programming-foundations--object-thinking)
+- [Phase 01 — Programming Foundations \& Object Thinking ✅](#phase-01--programming-foundations--object-thinking)
 - [Phase 02 — Classes, Objects \& Object Lifecycle](#phase-02--classes-objects--object-lifecycle)
 - [Phase 03 — Encapsulation \& Abstraction](#phase-03--encapsulation--abstraction)
 - [Phase 04 — Inheritance \& Polymorphism](#phase-04--inheritance--polymorphism)
@@ -14,25 +14,26 @@
 - [Phase 08 — SOLID Principles \& Design Patterns](#phase-08--solid-principles--design-patterns)
 - [Phase 09 — Object Modeling, UML, Architecture \& Anti-Patterns](#phase-09--object-modeling-uml-architecture--anti-patterns)
 - [Phase 10 — Testing, Refactoring, Production Practices \& Projects](#phase-10--testing-refactoring-production-practices--projects)
-- [🎯 Final Production Engineer Checklist](#-final-production-engineer-checklist)
 
-## Phase 01 — Programming Foundations & Object Thinking
+## Phase 01 — Programming Foundations & Object Thinking ✅
 
-- [ ] Variables, data types, primitive vs reference types
-- [ ] Stack vs Heap, value vs reference, scope, memory allocation basics
-- [ ] Control flow, collections, modules & packages (the pre-OOP building blocks)
-- [ ] Procedural vs Object-Oriented programming — the difference, and _why_ OOP exists
-- [ ] The "everything is an object" mindset — modeling real-world entities in code
-- [ ] The Four Pillars overview: Encapsulation, Abstraction, Inheritance, Polymorphism
-- [ ] Class vs Object — blueprint vs instance
-- [ ] State vs Behavior — the relationship between attributes (data) and methods (functions)
-- [ ] Message passing — how objects communicate with each other
-- [ ] Responsibility-Driven Design — thinking in terms of "who owns this responsibility," not just "what data exists"
-- [ ] Where OOP fits and where it doesn't (cases where a functional/procedural approach is the better fit)
+- [x] Variables, data types, primitive vs reference types
+- [x] Stack vs Heap, value vs reference, scope, memory allocation basics
+- [x] Control flow, collections, modules & packages (the pre-OOP building blocks)
+- [x] Procedural vs Object-Oriented programming — the difference, and _why_ OOP exists
+- [x] The "everything is an object" mindset — modeling real-world entities in code
+- [x] The Four Pillars overview: Encapsulation, Abstraction, Inheritance, Polymorphism
+- [x] Class vs Object — blueprint vs instance
+- [x] State vs Behavior — the relationship between attributes (data) and methods (functions)
+- [x] Message passing — how objects communicate with each other
+- [x] Responsibility-Driven Design — thinking in terms of "who owns this responsibility," not just "what data exists"
+- [x] Where OOP fits and where it doesn't (cases where a functional/procedural approach is the better fit)
+
+📖 **[Deep dive → 01-programming-foundations](./01-programming-foundations/README.md)**
 
 🎯 **Projects:** [Library Management →](./01-programming-foundations/library-management/PROJECT_PLAN.md)
 
-📖 **[Deep dive → 01-programming-foundations](./01-programming-foundations/README.md)**
+🧠 **[Interview Preparation → Q&A](./01-programming-foundations/interview-qu.md)**
 
 ## Phase 02 — Classes, Objects & Object Lifecycle
 
@@ -50,11 +51,11 @@
 - [ ] Copy constructor / cloning — shallow copy vs deep copy
 - [ ] Solving complex constructor problems with the Builder pattern (preview — full pattern in Phase 08)
 
+📖 **[Deep dive → 02-classes-and-objects](./02-classes-and-objects/README.md)**
+
 🎯 **Projects:** Student Management System →
 
-⚠ **Common pitfall:** Confusing "class" (blueprint) with "object" (instance) when explaining code out loud — a frequent interview stumble.
-
-📖 **[Deep dive → 02-classes-and-objects](./02-classes-and-objects/README.md)**
+🧠 **[Interview Preparation → Q&A](./02-classes-and-objects/interview-qu.md)**
 
 ## Phase 03 — Encapsulation & Abstraction
 
@@ -71,9 +72,11 @@
 - [ ] Real-world example: a car's steering wheel (interface) vs the engine's internal mechanism (implementation)
 - [ ] Layered abstraction — API layer, service layer, repository layer
 
+📖 **[Deep dive → 03-encapsulation-and-abstraction](./03-encapsulation-and-abstraction/README.md)**
+
 🎯 **Projects:** Bank Account → | Payment System →
 
-📖 **[Deep dive → 03-encapsulation-and-abstraction](./03-encapsulation-and-abstraction/README.md)**
+🧠 **[Interview Preparation → Q&A](./03-encapsulation-and-abstraction/interview-qu.md)**
 
 ## Phase 04 — Inheritance & Polymorphism
 
@@ -90,11 +93,11 @@
 - [ ] Operator overloading (in languages that support it) & parametric polymorphism/Generics
 - [ ] Using polymorphism to eliminate long `if/else`/`switch` chains — the role of the Strategy pattern
 
+📖 **[Deep dive → 04-inheritance-and-polymorphism](./04-inheritance-and-polymorphism/README.md)**
+
 🎯 **Projects:** Shape Drawing System →
 
-⚠ **Common pitfalls:** Deep inheritance chains that are hard to reason about; overriding a method in a way that violates the parent's contract (a Liskov Substitution violation — see Phase 08).
-
-📖 **[Deep dive → 04-inheritance-and-polymorphism](./04-inheritance-and-polymorphism/README.md)**
+🧠 **[Interview Preparation → Q&A](./04-inheritance-and-polymorphism/interview-qu.md)**
 
 ## Phase 05 — Object Relationships & Composition vs Inheritance
 
@@ -107,9 +110,11 @@
 - [ ] Making composition flexible with Dependency Injection (preview — full topic in Phase 07)
 - [ ] Loose coupling vs strong/tight coupling — recognizing which one your design has
 
+📖 **[Deep dive → 05-object-relationships-and-composition](./05-object-relationships-and-composition/README.md)**
+
 🎯 **Projects:** Library Management System → | Car & Engine System →
 
-📖 **[Deep dive → 05-object-relationships-and-composition](./05-object-relationships-and-composition/README.md)**
+🧠 **[Interview Preparation → Q&A](./05-object-relationships-and-composition/interview-qu.md)**
 
 ## Phase 06 — Access Control, Static Members & Memory Model
 
@@ -124,9 +129,9 @@
 - [ ] Stack vs Heap memory, reference variables, garbage collection
 - [ ] Memory leaks in OOP code — lingering references, unclosed resources, forgotten event listeners
 
-⚠ **Common pitfall:** Reaching for a `static` method/field to "make it easy to access from anywhere" — this is almost always a hidden coupling problem in disguise.
-
 📖 **[Deep dive → 06-access-control-and-memory-model](./06-access-control-and-memory-model/README.md)**
+
+🧠 **[Interview Preparation → Q&A](./06-access-control-and-memory-model/interview-qu.md)**
 
 ## Phase 07 — Interfaces, Abstract Classes & Dependency Injection
 
@@ -140,9 +145,11 @@
 - [ ] Constructor Injection, Setter Injection, Interface Injection
 - [ ] Inversion of Control (IoC) basics — who's responsible for creating dependencies, and why that matters
 
+📖 **[Deep dive → 07-interfaces-and-dependency-injection](./07-interfaces-and-dependency-injection/README.md)**
+
 🎯 **Projects:** Dependency Injection Refactor →
 
-📖 **[Deep dive → 07-interfaces-and-dependency-injection](./07-interfaces-and-dependency-injection/README.md)**
+🧠 **[Interview Preparation → Q&A](./07-interfaces-and-dependency-injection/interview-qu.md)**
 
 ## Phase 08 — SOLID Principles & Design Patterns
 
@@ -190,9 +197,11 @@
 - [ ] When to use it
 - [ ] When **not** to use it (don't reach for a pattern just because you know it)
 
+📖 **[Deep dive → 08-solid-and-design-patterns](./08-solid-and-design-patterns/README.md)**
+
 🎯 **Projects:** Notification System → | Plugin/Extension System →
 
-📖 **[Deep dive → 08-solid-and-design-patterns](./08-solid-and-design-patterns/README.md)**
+🧠 **[Interview Preparation → Q&A](./08-solid-and-design-patterns/interview-qu.md)**
 
 ## Phase 09 — Object Modeling, UML, Architecture & Anti-Patterns
 
@@ -222,6 +231,8 @@
 
 📖 **[Deep dive → 09-object-modeling-and-architecture](./09-object-modeling-and-architecture/README.md)**
 
+🧠 **[Interview Preparation → Q&A](./09-object-modeling-and-architecture/interview-qu.md)**
+
 ## Phase 10 — Testing, Refactoring, Production Practices & Projects
 
 - [ ] Unit testing individual classes/methods in isolation
@@ -244,6 +255,8 @@
 - [ ] Keep a personal OOP code-review checklist and actually apply it to your own PRs before requesting review
 
 📖 **[Deep dive → 10-testing-and-production-practices](./10-testing-and-production-practices/README.md)**
+
+🧠 **[Interview Preparation → Q&A](./10-testing-and-production-practices/interview-qu.md)**
 
 ## 🎯 Final Production Engineer Checklist
 
